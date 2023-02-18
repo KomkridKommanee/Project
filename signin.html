@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Signin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <script src="/bootstrap.bundle.min.js"></script>
+  <script src="dynamic.js"></script>
+  <style>
+    body {
+      background-color: #ffffff;
+      padding: 50px;
+      /* background-image: url("img/327057224_976530143310864_8895089874076681977_n.jpg"); */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      
+    }
+    h2{
+        color: rgb(0, 0, 0);
+    }
+    label{
+        color: rgb(0, 0, 0);
+    }
+    .container{
+      border: 5px solid #8C0505;
+      border-radius: 25px;
+      background-color: #ffffff;
+      padding: 15px;
+      opacity: 0.8;
+    }
+</style>
+<script>
+
+</script>
+</head>
+<body>
+
+<div class="container mt-3 text-center w-50">
+
+  <h2>ลงทะเบียน</h2>
+  <form >
+    <div class="row">
+    <div class="mb-2 mt-2 col-6 text-start">
+      <label for="name">ชื่อ:</label>
+      <input type="text" class="form-control" id="name"  name="name">
+    </div>
+    <div class="mb-2 mt-2 col-6 text-start">
+        <label for="surname">นามสกุล:</label>
+        <input type="text" class="form-control" id="surname"  name="surname">
+      </div>
+    </div>
+    <div class="mb-2 text-start">
+      <label for="pwd">รหัสนักศึกษา:</label>
+      <input type="text" class="form-control" id="pwd"  name="pwd">
+    </div>
+    <div class="mb-2 text-start">
+        <label for="pwd">หมู่เรียน:</label>
+        <input type="text" class="form-control" id="group"  name="group">
+    </div>
+    <div class="mb-2 text-start">
+      <label for="pwd">เบอร์โทร:</label>
+      <input type="text" class="form-control" id="tell"  name="tell">
+  </div>
+    <div class="drop1 mt-2 text-start">ระดับการศึกษา:
+        <div class="row">
+            <div class="col-5 md-3 mb-2 text-start">
+                <select name="drop" id="main_menu" class="custom_select">
+                    <option value="v1">ปริญญาตรี2ปีหลังปกติ</option>
+                    <option value="v2">ปริญญาตรี2ปีหลังกศ.พ.</option>
+                    <option value="v3">ปริญญาตรี4ปีปกติ </option>
+                    <option value="v4">ปริญญาตรี4ปีกศ.พ.</option>
+                </select>
+            </div>
+            <div class="col-3 md-3 mb-2 text-start">
+                <select name="dropname" id="sub_menu" class="custom_select">
+                  <option value="v1">1</option>
+                    <option value="v2">2</option>
+                    <option value="v3">3</option>
+                    <option value="v4">4</option>
+                    
+                </select>
+            </div>
+        </div>
+
+    </div>
+   
+
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> จดจำฉัน
+      </label>
+    </div>
+  </form>
+    <a href="index.html" type="submit" class="btn btn-primary">เข้าสู่ระบบ</a>
+    
+  
+</div>
+
+</body>
+</html>
